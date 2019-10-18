@@ -11,19 +11,24 @@
 
 .center {
   text-align: center;
-  background: url("../img/philly.png");
-  background-size: 500px 500px;
-  height: 500px;
-  width: 500px;
-  background-repeat: repeat-y;
 }
 
-.col-md-4 {
-  display: inline-block
+
+.main {
+  text-align: center;
+  background: url("../img/philly.png");
+  background-size: contain 500px 500px;
+  height: 900px;
+  width: 800px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  padding: 10px;
 }
+
+
 
 body {
-  background-color: beige;
+  background-color: black;
 }
 .well {
   width: 150px;
@@ -31,5 +36,9 @@ body {
   overflow: scroll;
   border: solid;
   float: right;
+
+
+
+
 
 }
