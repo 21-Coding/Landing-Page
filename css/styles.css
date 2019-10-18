@@ -13,7 +13,9 @@
   text-align: center;
 }
 
-
+body {
+  scroll-behavior: none;
+}
 .main {
   text-align: center;
   background: url("../img/philly.png");
@@ -40,7 +42,7 @@ body {
 }
 
 .container {
-  width: 10px;
-  height: 10px;
+  width: 400px;
+  height: 400px;
   float: right;
 }
