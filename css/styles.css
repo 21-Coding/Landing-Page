@@ -13,9 +13,7 @@
   text-align: center;
 }
 
-body {
-  scroll-behavior: none;
-}
+
 .main {
   text-align: center;
   background: url("../img/philly.png");
@@ -32,13 +30,13 @@ body {
 body {
   background-color: black;
 }
-.well {
-  width: 150px;
-  height: 150px;
-  overflow: scroll;
-  border: solid;
+.row {
+  width: 250px;
+  height: 250px;
+
+
   float: right;
-  display: table-column;
+
 }
 
 .container {
