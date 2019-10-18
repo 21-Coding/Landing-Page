@@ -4,10 +4,16 @@
    background: black;
    border-radius: 50%;
    display: inline-block;
+   margin: 30px;
+
  }
 
 .center {
   text-align: center;
+}
+
+.col-md-4 {
+  display: inline-block
 }
 
 body {
@@ -16,4 +22,5 @@ body {
 .well {
   width: 100px;
   height: 100px;
+
 }
