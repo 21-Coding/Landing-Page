@@ -1,6 +1,6 @@
 #circle {
-   width: 400px;
-   height: 400px;
+   width: 100px;
+   height: 100px;
    background: black;
    border-radius: 50%;
    display: inline-block;
@@ -12,4 +12,8 @@
 
 body {
   background-color: beige;
+}
+.well {
+  width: 100px;
+  height: 100px;
 }
