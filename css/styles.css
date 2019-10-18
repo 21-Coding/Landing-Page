@@ -5,11 +5,17 @@
    border-radius: 50%;
    display: inline-block;
    margin: 30px;
+   float: left;
 
  }
 
 .center {
   text-align: center;
+  background: url("../img/philly.png");
+  background-size: 500px 500px;
+  height: 500px;
+  width: 500px;
+  background-repeat: no-repeat;
 }
 
 .col-md-4 {
