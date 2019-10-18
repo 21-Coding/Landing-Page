@@ -8,10 +8,23 @@
    float: left;
 
  }
- 
+
+ .card {
+   background-color: black;
+ }
 
 .center {
   text-align: center;
+}
+
+.test {
+  width: 250px;
+  height: 250px;
+  background: black;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 5px;
+
 }
 
 
