@@ -30,11 +30,10 @@
 
 .main {
   text-align: center;
-  background: url("../img/philly.png");
-  background-size: contain 500px 500px;
+  background: url("../img/wall.jpg");
+  background-size: 50px 50px;
   height: 900px;
   width: 800px;
-  background-repeat: no-repeat;
   display: inline-block;
   padding: 10px;
 }
@@ -57,4 +56,10 @@ body {
   width: 400px;
   height: 400px;
   float: right;
+}
+
+
+.sidephotos {
+  width: 220px;
+  height: 250px;
 }
