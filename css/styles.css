@@ -9,6 +9,19 @@
 
  }
 
+
+
+
+
+.control-dog {
+  display: flow-root;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+
+}
+
+
 li {
   text-align: left;
 }
@@ -65,4 +78,9 @@ p {
   width: 300px;
   height: 300px;
    border-radius: 50%;
+}
+
+.body {
+
+  font: inherit;
 }
