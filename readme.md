@@ -19,7 +19,9 @@ This application gives a brief showing of the power of html all while displaying
 * _run index.html_
 
 
+## Linkage
 
+Using this link you may access landingpage --> https://21-coding.github.io/landingpage/
 
 ## Known Bugs
 
