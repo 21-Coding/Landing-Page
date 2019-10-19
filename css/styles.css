@@ -63,19 +63,29 @@ p {
 
 .main {
   text-align: center;
-  background: url("../img/philly.png");
-  background-size: 1000px 1000px;
+  background: url("../img/philly2.jpg");
+  background-size: 900px 900px;
   height: 900px;
-  width: 800px;
+  width: 900px;
   display: inline-block;
   padding: 10px;
   background-repeat: no-repeat;
 
 }
 
+.modal-body {
+  color: white;
+}
 
-
-
+.holder {
+  text-align: center;
+}
+.special {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  display: inline-flex;
+}
 
 
 .container {
@@ -95,7 +105,7 @@ p {
 .me {
   width: 300px;
   height: 300px;
-   border-radius: 50%;
+  border-radius: 50%;
 }
 
 .body {
