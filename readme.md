@@ -6,7 +6,7 @@
 ![enter image description here](https://lh3.googleusercontent.com/iL2PUHSpte2gWNVdy5EoAv2m4MgBmZN-SfHMNAvoGNLIrP1wBw-hL5WRtFT4sIvNef-S2G5stCg=s900)
 
 ## Media
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6asisMqJhEs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://www.youtube.com/embed/6asisMqJhEs
 
 ### Description
 
