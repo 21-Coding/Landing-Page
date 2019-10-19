@@ -9,13 +9,26 @@
 
  }
 
+li {
+  text-align: left;
+}
+p {
+  text-align: left;
+}
 
 
 .center {
   text-align: center;
 }
 
+.modal-title {
+  color: red;
+}
 
+.modal-body {
+  text-align: center;
+  font-size: 20px;
+}
 
 .main {
   text-align: center;
