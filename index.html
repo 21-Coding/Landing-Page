@@ -33,12 +33,25 @@
 
   <div class="center">
     <div class="main">
+      <div class="column">
 
-      <!-- buttons linking to different aspects of page -->
-      <button class="btn btn-dark" type="button" name="button" data-toggle="modal" data-target="#myModal3">Fun Facts</button>
-      <button class="btn btn-dark" type="button" name="button" data-toggle="modal" data-target="#myModal4">Interests</button>
-      <button class="btn btn-dark" type="button" name="button" data-toggle="modal" data-target="#myModal2">Why Code?</button>
-      <button class="btn btn-dark" type="button" name="button" data-toggle="modal" data-target="#myModal">Projects</button>
+        <!-- buttons linking to different aspects of page -->
+        <button class="btn btn-dark" type="button" name="button" data-toggle="modal" data-target="#myModal3">Fun Facts</button>
+        <button class="btn btn-dark" type="button" name="button" data-toggle="modal" data-target="#myModal4">Interests</button>
+        <div id="accordion">
+          <a class="card-link" data-toggle="collapse" href="#collapseOne">
+            <button class="btn btn-dark" type="button" name="button" data-toggle="modal"></button>
+          </a>
+        </div>
+        <div id="collapseOne" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            Lorem ipsum..
+          </div>
+
+        </div>
+        <button class="btn btn-dark" type="button" name="button" data-toggle="modal" data-target="#myModal2">Why Code?</button>
+        <button class="btn btn-dark" type="button" name="button" data-toggle="modal" data-target="#myModal">Projects</button>
+      </div>
       <!-- End of buttons -->
 
 
@@ -99,7 +112,8 @@
             </div>
             <!-- Modal body -->
             <div class="modal-body bg-dark">
-              I'm not too complicated! I grew up in <strong>Philadelphia, PA</strong> by way of <strong>New Jersey</strong>. I have a love for seafood and I hate small talk (get to the point already). My parents are both from Philadelphia, PA. A fun
+              I'm not too complicated! I grew up in <strong>Philadelphia, PA</strong> by way of <strong>New Jersey</strong>. I have a love for seafood and I hate small talk (get to the point already). My parents are both from Philadelphia, PA. A
+              fun
               fact about me is
               that I've lived in
               China for a year!
