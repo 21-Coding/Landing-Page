@@ -33,7 +33,7 @@ If you run into any issues running landingpage please contact me at ddyoumans@ic
 
 ## Technologies Used
 
-In creation of this application, HTML, CSS, and JacaScript were used. The dog animation was created using webflow.
+In creation of this application, HTML, CSS, and JacaScript were used. The dog animation was created using Webflow.
 
 ### License
 
