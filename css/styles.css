@@ -32,10 +32,10 @@
 
 
 .control-dog {
-  display: flow-root;
-  position: fixed;
-  bottom: 0px;
-  left: 0px;
+
+  position:  fixed;
+  bottom: 5px;
+  center: 0px;
 
 }
 
