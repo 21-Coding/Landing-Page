@@ -6,7 +6,7 @@
 ![enter image description here](https://lh3.googleusercontent.com/iL2PUHSpte2gWNVdy5EoAv2m4MgBmZN-SfHMNAvoGNLIrP1wBw-hL5WRtFT4sIvNef-S2G5stCg=s900)
 
 ## Media
-https://www.youtube.com/embed/6asisMqJhEs
+**Watch** as the dog chases the tennis ball! https://www.youtube.com/embed/6asisMqJhEs
 
 ### Description
 

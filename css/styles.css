@@ -109,7 +109,7 @@ p {
 }
 
 .body {
-
+  border-color: beige;
   font: inherit;
 }
 
