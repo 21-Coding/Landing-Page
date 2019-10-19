@@ -17,10 +17,10 @@
   color: red;
 }
 .title {
-  display: inline-flex;
+  display: block;
   font-weight: bolder;
   font-variant: small-caps;
-  float: left;
+
 }
 
 .titlerepo {
@@ -35,7 +35,7 @@
   display: flow-root;
   position: fixed;
   bottom: 0px;
-  right: 0px;
+  left: 0px;
 
 }
 
