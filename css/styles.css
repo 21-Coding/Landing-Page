@@ -9,7 +9,25 @@
 
  }
 
+ .move {
+   text-align: center;
+ }
 
+.red {
+  color: red;
+}
+.title {
+  display: inline-flex;
+  font-weight: bolder;
+  font-variant: small-caps;
+  float: left;
+}
+
+.titlerepo {
+
+  font-weight: bolder;
+  font-variant: small-caps;
+}
 
 
 
