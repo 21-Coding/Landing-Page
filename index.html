@@ -33,218 +33,204 @@
 
   <div class="center">
     <div class="main">
-      <div class="column">
+      <!-- buttons linking to different aspects of page -->
+      <button class="btn btn-dark" type="button" name="button" data-toggle="modal" data-target="#myModal3">Fun Facts</button>
+      <button class="btn btn-dark" type="button" name="button" data-toggle="modal" data-target="#myModal4">Interests</button>
+      <button class="btn btn-dark" type="button" name="button" data-toggle="modal" data-target="#myModal2">Why Code?</button>
+      <button class="btn btn-dark" type="button" name="button" data-toggle="modal" data-target="#myModal">Projects</button>
+    </div>
+    <!-- End of buttons -->
 
-        <!-- buttons linking to different aspects of page -->
-        <button class="btn btn-dark" type="button" name="button" data-toggle="modal" data-target="#myModal3">Fun Facts</button>
-        <button class="btn btn-dark" type="button" name="button" data-toggle="modal" data-target="#myModal4">Interests</button>
-        <div id="accordion">
-          <a class="card-link" data-toggle="collapse" href="#collapseOne">
-            <button class="btn btn-dark" type="button" name="button" data-toggle="modal"></button>
-          </a>
-        </div>
-        <div id="collapseOne" class="collapse" data-parent="#accordion">
-          <div class="card-body">
-            Lorem ipsum..
+
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content bg-dark">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Projects</h4>
           </div>
-
-        </div>
-        <button class="btn btn-dark" type="button" name="button" data-toggle="modal" data-target="#myModal2">Why Code?</button>
-        <button class="btn btn-dark" type="button" name="button" data-toggle="modal" data-target="#myModal">Projects</button>
-      </div>
-      <!-- End of buttons -->
-
-
-      <!-- The Modal -->
-      <div class="modal" id="myModal">
-        <div class="modal-dialog">
-          <div class="modal-content bg-dark">
-            <!-- Modal Header -->
-            <div class="modal-header">
-              <h4 class="modal-title">Projects</h4>
-            </div>
-            <!-- Modal body -->
-            <div class="modal-body bg-dark">
-              <ol>
-                <li class="titlerepo">Lets Talk</li>
-                <p><a href="https://21-coding.github.io/LetsTalk/"><i class="fab fa-github"></i></a></p>
-                <li class="titlerepo">Boop Beep</li>
-                <p><a href="https://21-coding.github.io/BoopBeep/"><i class="fab fa-github"></i></a></p>
-                <li class="titlerepo">Blazer Pies</li>
-                <p><a href="https://21-coding.github.io/Pizza1/"><i class="fab fa-github"></i></a></p>
-              </ol>
-            </div>
-            <!-- Modal footer -->
-            <div class="modal-footer">
-              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-            </div>
+          <!-- Modal body -->
+          <div class="modal-body bg-dark">
+            <ol>
+              <li class="titlerepo">Lets Talk</li>
+              <p><a href="https://21-coding.github.io/LetsTalk/"><i class="fab fa-github"></i></a></p>
+              <li class="titlerepo">Boop Beep</li>
+              <p><a href="https://21-coding.github.io/BoopBeep/"><i class="fab fa-github"></i></a></p>
+              <li class="titlerepo">Blazer Pies</li>
+              <p><a href="https://21-coding.github.io/Pizza1/"><i class="fab fa-github"></i></a></p>
+            </ol>
+          </div>
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
-      <div class="modal" id="myModal2">
-        <div class="modal-dialog">
-          <div class="modal-content bg-dark">
-            <!-- Modal Header -->
-            <div class="modal-header">
-              <h4 class="modal-title">Why Code?</h4>
-            </div>
-            <div class="holder">
-              <img class="special" src="img/career.png" alt="">
-            </div>
-            <!-- Modal body -->
-            <div class="modal-body bg-dark">
-              Coding has always been of some interest to me. As a child my father attended <strong>Temple University</strong> in Philadelphia, PA to study computer science. In his time there he purchased me a computer for my 10th birthday, the
-              rest is history.
-            </div>
-            <!-- Modal footer -->
-            <div class="modal-footer">
-              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-            </div>
+    </div>
+    <div class="modal" id="myModal2">
+      <div class="modal-dialog">
+        <div class="modal-content bg-dark">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Why Code?</h4>
+          </div>
+          <div class="holder">
+            <img class="special" src="img/career.png" alt="">
+          </div>
+          <!-- Modal body -->
+          <div class="modal-body bg-dark">
+            Coding has always been of some interest to me. As a child my father attended <strong>Temple University</strong> in Philadelphia, PA to study computer science. In his time there he purchased me a computer for my 10th birthday, the
+            rest is history.
+          </div>
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
-      <div class="modal" id="myModal3">
-        <div class="modal-dialog">
-          <div class="modal-content bg-dark">
-            <!-- Modal Header -->
-            <div class="modal-header">
-              <h4 class="modal-title">About Dom</h4>
-            </div>
-            <!-- Modal body -->
-            <div class="modal-body bg-dark">
-              I'm not too complicated! I grew up in <strong>Philadelphia, PA</strong> by way of <strong>New Jersey</strong>. I have a love for seafood and I hate small talk (get to the point already). My parents are both from Philadelphia, PA. A
-              fun
-              fact about me is
-              that I've lived in
-              China for a year!
-            </div>
-            <div class="modal-header">
-              <h4 class="modal-title">Prior To Code:</h4>
-            </div>
-            <!-- Modal body -->
-            <div class="modal-body bg-dark">
-              Prior to code I did a lot of different things, one thing that I have added into this project is a short video of what I've done during my time at<strong> Nike </strong>.
+    </div>
+    <div class="modal" id="myModal3">
+      <div class="modal-dialog">
+        <div class="modal-content bg-dark">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">About Dom</h4>
+          </div>
+          <!-- Modal body -->
+          <div class="modal-body bg-dark">
+            I'm not too complicated! I grew up in <strong>Philadelphia, PA</strong> by way of <strong>New Jersey</strong>. I have a love for seafood and I hate small talk (get to the point already). My parents are both from Philadelphia, PA. A
+            fun
+            fact about me is
+            that I've lived in
+            China for a year!
+          </div>
+          <div class="modal-header">
+            <h4 class="modal-title">Prior To Code:</h4>
+          </div>
+          <!-- Modal body -->
+          <div class="modal-body bg-dark">
+            Prior to code I did a lot of different things, one thing that I have added into this project is a short video of what I've done during my time at<strong> Nike </strong>.
+            <br>
+            <iframe width="360" height="315" src="https://www.youtube.com/embed/pWGAlQqNlTw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="myModal4">
+      <div class="modal-dialog">
+        <div class="modal-content bg-dark">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Interests</h4>
+          </div>
+          <!-- Modal body -->
+          <div class="modal-body bg-dark">
+            <ul class="bg-dark">
+              <li class="title">Dogs</li>
+              <img class="me" src="img/doggy.png" alt="">
+              <p class="move">I <span class="red">love</span> dogs!</p>
               <br>
-              <iframe width="360" height="315" src="https://www.youtube.com/embed/pWGAlQqNlTw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <li class="title">Pusha-T</li>
+              <img class="me" src="img/push.jpg" alt="a photo of a man with a hat on">
+              <p>Terrence LeVarr Thornton (born May 13, 1977), better known by his stage name <strong>Pusha-T</strong>, is an American rapper, songwriter and record executive. He initially gained major recognition as half of hip hop duo Clipse,
+                alongside his brother and fellow rapper No
+                Malice, with whom he
+                founded Re-Up Records.</p>
+              <br>
+              <li class="title">Travel</li>
+              <img class="me" src="img/travel.png" alt="a photo of a bag and its contents">
+              <p>I <em>love</em> to travel, whether it is <strong>local</strong> or <strong>national</strong>. I have been to almost every state and several parts of China!</p>
+              <br>
+              <li class="title">Summer</li>
+              <img class="me" src="img/summer.png" alt="a photo of a summer shirt and sandals">
+              <p>The <em>summer</em> time is my favorite time of the year. I have a strong need for the <strong>sun</strong> and the <strong>beach</strong>.</p>
+            </ul>
+          </div>
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="control-dog">
+
+      <div class="mydog">
+
+        <div class="dog-wrapper">
+          <div data-w-id="8b4e07c0-7f84-8073-7503-4ba5f880ee32" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(27.8421deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform;"
+            class="dog-tail"></div>
+          <div class="dog-head_wrapper">
+            <div data-w-id="8b4e07c0-7f84-8073-7503-4ba5f880ee33" class="dog-ear"
+              style="will-change: transform; transform: translate3d(10%, 0.28953%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"></div>
+            <div class="dog-ear right" style="will-change: transform; transform: translate3d(10%, 0.28953%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"></div>
+            <div data-w-id="8b4e07c0-7f84-8073-7503-4ba5f880ee3f" class="dog-head"
+              style="will-change: transform; transform: translate3d(5%, 0.16085%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"></div>
+            <div class="dog-head btm" style="will-change: transform; transform: translate3d(5%, 0.16085%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"></div>
+            <div data-w-id="b8bd0166-d3f1-09ec-0441-80418e8dbd73" class="dog-cheek_wrapper"
+              style="will-change: transform; transform: translate3d(5%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+              <div data-w-id="8b4e07c0-7f84-8073-7503-4ba5f880ee41"
+                style="transform: translate3d(2.25999%, 0.22519%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform;" class="dog-head_cheek"></div>
+              <div data-w-id="8b4e07c0-7f84-8073-7503-4ba5f880ee42"
+                style="transform: translate3d(-2.25813%, 0.22519%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform;" class="dog-head_cheek right"></div>
             </div>
-            <!-- Modal footer -->
-            <div class="modal-footer">
-              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            <div data-w-id="8b4e07c0-7f84-8073-7503-4ba5f880ee43" class="dog-face_eyes"
+              style="will-change: transform; transform: translate3d(32%, 1.02944%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+              <div class="dog-face_eye">
+                <div data-w-id="8b4e07c0-7f84-8073-7503-4ba5f880ee45" class="dog-face_pupil"
+                  style="will-change: transform; transform: translate3d(80%, 1.6085%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"></div>
+                <div data-w-id="8b4e07c0-7f84-8073-7503-4ba5f880ee46" class="dog-face_eye-lid" style="transform: translate3d(0px, -100%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+                </div>
+              </div>
+              <div class="dog-face_eye right">
+                <div class="dog-face_pupil right" style="will-change: transform; transform: translate3d(80%, 1.6085%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"></div>
+                <div class="dog-face_eye-lid" style="transform: translate3d(0px, -100%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"></div>
+              </div>
+            </div>
+            <div data-w-id="8b4e07c0-7f84-8073-7503-4ba5f880ee4a" class="dog-face_jaw"
+              style="will-change: transform; transform: translate3d(40%, 0.48255%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+              <div class="dog-face_nose"></div>
+              <div class="dog-face_mouth">
+                <div data-w-id="8b4e07c0-7f84-8073-7503-4ba5f880ee4d" style="height: 34.9746px; width: 25px; will-change: width, height;" class="dog-face_tongue">
+                  <div class="dog-face_tongue-detail"></div>
+                  <div class="dog-face_tongue-detail right"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-w-id="c8725083-1780-1643-468a-a7e3fe19710d" class="dog-body_wrapper" style="will-change: transform; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(-2deg, 0deg);">
+            <div class="dog-body belly"></div>
+            <div class="dog-leg back">
+              <div class="dog-leg_foot back"></div>
+            </div>
+            <div class="dog-leg back right">
+              <div class="dog-leg_foot back right"></div>
+            </div>
+            <div class="dog-leg">
+              <div class="dog-leg_foot"></div>
+            </div>
+            <div class="dog-leg right">
+              <div class="dog-leg_foot right"></div>
+            </div>
+            <div class="dog-body">
+              <div class="dog-body_patch"></div>
             </div>
           </div>
         </div>
       </div>
-      <div class="modal" id="myModal4">
-        <div class="modal-dialog">
-          <div class="modal-content bg-dark">
-            <!-- Modal Header -->
-            <div class="modal-header">
-              <h4 class="modal-title">Interests</h4>
-            </div>
-            <!-- Modal body -->
-            <div class="modal-body bg-dark">
-              <ul class="bg-dark">
-                <li class="title">Dogs</li>
-                <img class="me" src="img/doggy.png" alt="">
-                <p class="move">I <span class="red">love</span> dogs!</p>
-                <br>
-                <li class="title">Pusha-T</li>
-                <img class="me" src="img/push.jpg" alt="a photo of a man with a hat on">
-                <p>Terrence LeVarr Thornton (born May 13, 1977), better known by his stage name <strong>Pusha-T</strong>, is an American rapper, songwriter and record executive. He initially gained major recognition as half of hip hop duo Clipse,
-                  alongside his brother and fellow rapper No
-                  Malice, with whom he
-                  founded Re-Up Records.</p>
-                <br>
-                <li class="title">Travel</li>
-                <img class="me" src="img/travel.png" alt="a photo of a bag and its contents">
-                <p>I <em>love</em> to travel, whether it is <strong>local</strong> or <strong>national</strong>. I have been to almost every state and several parts of China!</p>
-                <br>
-                <li class="title">Summer</li>
-                <img class="me" src="img/summer.png" alt="a photo of a summer shirt and sandals">
-                <p>The <em>summer</em> time is my favorite time of the year. I have a strong need for the <strong>sun</strong> and the <strong>beach</strong>.</p>
-              </ul>
-            </div>
-            <!-- Modal footer -->
-            <div class="modal-footer">
-              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-            </div>
-
-          </div>
-        </div>
-      </div>
-      <div class="control-dog">
-
-        <div class="mydog">
-
-          <div class="dog-wrapper">
-            <div data-w-id="8b4e07c0-7f84-8073-7503-4ba5f880ee32" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(27.8421deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform;"
-              class="dog-tail"></div>
-            <div class="dog-head_wrapper">
-              <div data-w-id="8b4e07c0-7f84-8073-7503-4ba5f880ee33" class="dog-ear"
-                style="will-change: transform; transform: translate3d(10%, 0.28953%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"></div>
-              <div class="dog-ear right" style="will-change: transform; transform: translate3d(10%, 0.28953%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"></div>
-              <div data-w-id="8b4e07c0-7f84-8073-7503-4ba5f880ee3f" class="dog-head"
-                style="will-change: transform; transform: translate3d(5%, 0.16085%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"></div>
-              <div class="dog-head btm" style="will-change: transform; transform: translate3d(5%, 0.16085%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"></div>
-              <div data-w-id="b8bd0166-d3f1-09ec-0441-80418e8dbd73" class="dog-cheek_wrapper"
-                style="will-change: transform; transform: translate3d(5%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
-                <div data-w-id="8b4e07c0-7f84-8073-7503-4ba5f880ee41"
-                  style="transform: translate3d(2.25999%, 0.22519%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform;" class="dog-head_cheek"></div>
-                <div data-w-id="8b4e07c0-7f84-8073-7503-4ba5f880ee42"
-                  style="transform: translate3d(-2.25813%, 0.22519%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform;" class="dog-head_cheek right"></div>
-              </div>
-              <div data-w-id="8b4e07c0-7f84-8073-7503-4ba5f880ee43" class="dog-face_eyes"
-                style="will-change: transform; transform: translate3d(32%, 1.02944%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
-                <div class="dog-face_eye">
-                  <div data-w-id="8b4e07c0-7f84-8073-7503-4ba5f880ee45" class="dog-face_pupil"
-                    style="will-change: transform; transform: translate3d(80%, 1.6085%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"></div>
-                  <div data-w-id="8b4e07c0-7f84-8073-7503-4ba5f880ee46" class="dog-face_eye-lid"
-                    style="transform: translate3d(0px, -100%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
-                  </div>
-                </div>
-                <div class="dog-face_eye right">
-                  <div class="dog-face_pupil right" style="will-change: transform; transform: translate3d(80%, 1.6085%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"></div>
-                  <div class="dog-face_eye-lid" style="transform: translate3d(0px, -100%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"></div>
-                </div>
-              </div>
-              <div data-w-id="8b4e07c0-7f84-8073-7503-4ba5f880ee4a" class="dog-face_jaw"
-                style="will-change: transform; transform: translate3d(40%, 0.48255%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
-                <div class="dog-face_nose"></div>
-                <div class="dog-face_mouth">
-                  <div data-w-id="8b4e07c0-7f84-8073-7503-4ba5f880ee4d" style="height: 34.9746px; width: 25px; will-change: width, height;" class="dog-face_tongue">
-                    <div class="dog-face_tongue-detail"></div>
-                    <div class="dog-face_tongue-detail right"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div data-w-id="c8725083-1780-1643-468a-a7e3fe19710d" class="dog-body_wrapper" style="will-change: transform; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(-2deg, 0deg);">
-              <div class="dog-body belly"></div>
-              <div class="dog-leg back">
-                <div class="dog-leg_foot back"></div>
-              </div>
-              <div class="dog-leg back right">
-                <div class="dog-leg_foot back right"></div>
-              </div>
-              <div class="dog-leg">
-                <div class="dog-leg_foot"></div>
-              </div>
-              <div class="dog-leg right">
-                <div class="dog-leg_foot right"></div>
-              </div>
-              <div class="dog-body">
-                <div class="dog-body_patch"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <script src="https://d1tdp7z6w94jbb.cloudfront.net/js/jquery-3.3.1.min.js" type="text/javascript" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-        <script src="https://uploads-ssl.webflow.com/5d1c08aa2087664629d44af5/js/webflow.9d033bd7d.js" type="text/javascript"></script>
-        <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
-
-      </div>
+      <script src="https://d1tdp7z6w94jbb.cloudfront.net/js/jquery-3.3.1.min.js" type="text/javascript" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+      <script src="https://uploads-ssl.webflow.com/5d1c08aa2087664629d44af5/js/webflow.9d033bd7d.js" type="text/javascript"></script>
+      <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
 
     </div>
+
+  </div>
   </div>
 
 
